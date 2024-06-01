@@ -157,3 +157,26 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.load-more {
+  display: inline-block;
+  text-align: center;
+  margin: 30px auto;
+  border-radius: 8px;
+  background: #4e75ff;
+  padding: 8px 16px;
+  color: #fff;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: none;
+}
+
+.load-more-hidden {
+  display: none;
+}
